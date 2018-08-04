@@ -32,8 +32,6 @@
 		20111F791E3B7A860095EA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20111F771E3B7A860095EA90 /* Main.storyboard */; };
 		20111F7B1E3B7A860095EA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20111F7A1E3B7A860095EA90 /* Assets.xcassets */; };
 		20111F7E1E3B7A860095EA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20111F7C1E3B7A860095EA90 /* LaunchScreen.storyboard */; };
-		20111F891E3B7A870095EA90 /* ZhiHu_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20111F881E3B7A870095EA90 /* ZhiHu_RxSwiftTests.swift */; };
-		20111F941E3B7A870095EA90 /* ZhiHu_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20111F931E3B7A870095EA90 /* ZhiHu_RxSwiftUITests.swift */; };
 		EFEC940163E83E30083F4D32 /* Pods_ZhiHu_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBB9E0D5531B515FC00D848 /* Pods_ZhiHu_RxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,11 +81,7 @@
 		20111F7D1E3B7A860095EA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20111F7F1E3B7A860095EA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20111F841E3B7A870095EA90 /* ZhiHu+RxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZhiHu+RxSwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20111F881E3B7A870095EA90 /* ZhiHu_RxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiHu_RxSwiftTests.swift; sourceTree = "<group>"; };
-		20111F8A1E3B7A870095EA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20111F8F1E3B7A870095EA90 /* ZhiHu+RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZhiHu+RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20111F931E3B7A870095EA90 /* ZhiHu_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhiHu_RxSwiftUITests.swift; sourceTree = "<group>"; };
-		20111F951E3B7A870095EA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9A9689D07E41B603B226C5 /* Pods-ZhiHu+RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiHu+RxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiHu+RxSwift/Pods-ZhiHu+RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		57AE22ED374C263D087B4CA3 /* Pods-ZhiHu+RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiHu+RxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiHu+RxSwift/Pods-ZhiHu+RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		5BBB9E0D5531B515FC00D848 /* Pods_ZhiHu_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhiHu_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,8 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				20111F721E3B7A860095EA90 /* ZhiHu+RxSwift */,
-				20111F871E3B7A870095EA90 /* ZhiHu+RxSwiftTests */,
-				20111F921E3B7A870095EA90 /* ZhiHu+RxSwiftUITests */,
 				20111F711E3B7A860095EA90 /* Products */,
 				438BF3A1C118D75F801919B0 /* Pods */,
 				AB53DB4765A940F43E7B2B41 /* Frameworks */,
@@ -204,24 +196,6 @@
 				07F412851E58461000C5DE06 /* menuShow.gif */,
 			);
 			path = "ZhiHu+RxSwift";
-			sourceTree = "<group>";
-		};
-		20111F871E3B7A870095EA90 /* ZhiHu+RxSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				20111F881E3B7A870095EA90 /* ZhiHu_RxSwiftTests.swift */,
-				20111F8A1E3B7A870095EA90 /* Info.plist */,
-			);
-			path = "ZhiHu+RxSwiftTests";
-			sourceTree = "<group>";
-		};
-		20111F921E3B7A870095EA90 /* ZhiHu+RxSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				20111F931E3B7A870095EA90 /* ZhiHu_RxSwiftUITests.swift */,
-				20111F951E3B7A870095EA90 /* Info.plist */,
-			);
-			path = "ZhiHu+RxSwiftUITests";
 			sourceTree = "<group>";
 		};
 		438BF3A1C118D75F801919B0 /* Pods */ = {
@@ -464,7 +438,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20111F891E3B7A870095EA90 /* ZhiHu_RxSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +445,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20111F941E3B7A870095EA90 /* ZhiHu_RxSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
